@@ -12,13 +12,13 @@ class MiImplementacionBasica(EjerciciosBasicos):
         return a + b
     
     def restar_dos_numeros(self, a, b):
-        raise NotImplementedError("Método no implementado aún")
+        return a - b
         
     def multiplicar_dos_numeros(self, a, b):
-        raise NotImplementedError("Método no implementado aún")
+        return a * b
         
     def dividir_dos_numeros(self, a, b):
-        raise NotImplementedError("Método no implementado aún")
+        return a / b 
         
     def resto_division(self, a, b):
         raise NotImplementedError("Método no implementado aún")
@@ -27,7 +27,7 @@ class MiImplementacionBasica(EjerciciosBasicos):
         raise NotImplementedError("Método no implementado aún")
         
     def g(self, x):
-        raise NotImplementedError("Método no implementado aún")
+        return 2 * x
         
     def valor_absoluto(self, x):
         raise NotImplementedError("Método no implementado aún")
